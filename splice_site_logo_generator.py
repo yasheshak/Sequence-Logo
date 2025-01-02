@@ -15,7 +15,7 @@ parser.add_argument('-A', '--Afile', default="-A path/to/A.png", type=str, actio
 parser.add_argument('-C', '--Cfile', default="-C path/to/C.png", type=str, action='store', help='input C file')
 parser.add_argument('-G', '--Gfile', default="-G path/to/C.png", type=str, action='store', help='input G file')
 parser.add_argument('-T', '--Tfile', default="-T path/to/C.png", type=str, action='store', help='input T file')
-parser.add_argument('-o', '--outFile', default='Kothari_Yashesha_BME163_Assignment_Week5.png', type=str, action='store', help='output file for figure')
+parser.add_argument('-o', '--outFile', default='logo.png', type=str, action='store', help='output file for figure')
 
 args = parser.parse_args()
 
